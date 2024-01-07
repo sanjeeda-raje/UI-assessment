@@ -1,0 +1,137 @@
+header .navbar-centered {
+    position: absolute;
+    width: fit-content;
+    left: 50%;
+    top: 63%;
+    text-align: center;
+    margin: auto;
+    transform: translate(-50%, -50%);
+}
+header .navbar-centered ul{
+    display: inline-flex;
+    padding-left: 0;
+    list-style: none;
+}
+header .navbar-centered ul>li {
+    position: relative;
+}
+header .navbar-centered ul>li::before {
+    content: '';
+    position: absolute;
+    background: #4979af;
+    width: 1.5px;
+    height: 100%;
+    left: -17px;
+}
+header .navbar-centered ul>li:first-of-type:before{
+    width: 0;
+}
+.navbar-right ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+}
+.navbar-right ul>li {
+    margin-right: 14px !important;
+}
+nav{
+     padding-top: 12px;
+    padding-bottom: 12px;
+  
+}
+nav .navbar-nav .nav-link.active {
+    color: var(--fg-theme);
+    font-weight: 700;
+}
+nav .nav-link {
+    color: var(--fg-primary);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+nav ul>li {
+    margin-right: 0 !important;
+}
+
+header {
+    width: 100%;
+    z-index: 1;
+   
+    transition: all ease 2s;
+}
+header.active nav {
+    /* background: url('../images/logo/bg-glass.svg') no-repeat center; */
+    background-size: cover;
+    background-color: var(--bg-primary);
+    /* height: 80px; */
+    /* padding: 15px 0; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    backdrop-filter: blur(5px);
+    background-color: rgb(21 20 20 / 80%);
+}
+p.headerleft {
+    background: #ee5225;
+    color: #fff;
+    padding: 4px 15px;
+    font-size: 13px;
+}
+header{
+    background: #fff;
+}
+header ul>li a {
+    color: #255b97;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+img.avatar-pic{
+    border-radius: 50%;
+}
+header i{
+    color:#255b97;
+}
+.offcanvas-body a{
+    display: block;
+    text-decoration: none;
+    margin: 20px 0px;
+    color: #255b97;
+    font-weight: 700;
+}
+@media (min-width:1300px) {
+    header .navbar-centered ul>li {
+        margin-right: 33px !important;
+    }
+}
+@media (max-width:992px) {
+    header .navbar-brand {
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 15%;
+        text-align: start;
+        margin: auto;
+    }
+}
+@media (min-width:992px) and (max-width:1200px) {
+    nav ul>li {
+        margin-right: 0;
+    }
+    header .navbar-centered {
+        position: absolute;
+        width: fit-content;
+        left: 32%;
+        top: 32%;
+        text-align: center;
+        margin: auto;
+        transform: none;
+    }
+    header .navbar-centered ul > li {
+        position: relative;
+        margin-right: 0px;
+    }
+}

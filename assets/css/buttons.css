@@ -1,0 +1,44 @@
+.btn-edit{
+    border: none;
+}
+.first-btn{
+    border: none !important;
+    color: #fff;
+    border-radius: 5px !important;
+    }
+    .second-btn{
+    color: #000 !important;
+    border: 1px solid #000 !important;
+    background: none !important;
+    border-radius: 5px !important;
+    }
+    .third-btn{
+    /* background: #1996f8 !important; */
+    color: #fff !important;
+    border-radius: 20px !important;
+    border:none !important;
+    padding: 4px 27px !important;
+    }
+    .fourth-btn{
+    color: #000 !important;
+    border: 1px solid #000 !important;
+    background: none !important;
+    border-radius: 20px !important;
+    }
+    .fifth-btn{
+    background: none !important;
+    border: none !important;
+    color: #000 !important;
+    text-decoration: underline !important;
+    }
+    .sixth-btn{
+    background: none !important;
+    border: none !important;
+    color: #000 !important;
+    text-decoration: underline !important;
+    position: relative;
+    }
+    .sixth-btn::after{
+    content: '>';
+    position: absolute;
+    }

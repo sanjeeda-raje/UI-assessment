@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UI Assesment</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap icons cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+</head>
+  <body>
+    <header class="header">
+        <!-- nav desktop -->
+        <nav class="navbar navbar-expand-lg d-lg-block d-none">
+            <div class="container-fluid">
+             <div class="d-flex">
+              <button class="navbar-toggler" type="button" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                <img src="./assets/images/logo/hamburger.png"  class="img-fluid" width="60" alt="menu">
+               </button>
+              <div class="navbar-centered mx-auto" href="./index.html">
+                <!-- <img src="./assets/images/logo/LOGO.png" class="img-fluid"/> -->
+               <div class="text-white">
+                <ul>
+                    <li> <a href="#">Financial Wisdom Demistified</a></li>
+                    <li> <a href="#">Sequential</a></li>
+                    <li> <a href="#">Self-Paced</a></li>
+                    <li> <a href="#">3 SimBytes</a></li>
+                 </ul>
+               </div>
+                <!-- <ul>
+                    <li> <a href="#">Financial Wisdom Demistified</a></li>
+                    <li> <a href="#">Sequential</a></li>
+                    <li> <a href="#">Self-Paced</a></li>
+                    <li> <a href="#">3 SimBytes</a></li>
+                 </ul> -->
+            </div>
+             </div>
+             <form class="d-flex ms-auto">
+              <button class=" btn-1 hidden-desk" type="submit">Reach Me</button>
+            </form>
+              <div class="collapse navbar-collapse">
+                <div class="d-flex">
+                    <img src="./assets/images/logo/logo.jpg" width="150px" class="img-fluid" alt="logo">
+                    <p class="headerleft mb-0">Creator Suite <br> Simulation builder</p>
+                 </div>
+                <div class="d-flex ms-auto navbar-right">
+                    <div class="align-self-center">
+                        <ul>
+                        <li><i class="fa-solid fa-bell"></i></li>
+                        <li> <img src="./assets/images/logo/avatar.jpeg" width="35px" class="avatar-pic" alt=""></li>
+                        <li> <i class="fa-solid fa-caret-down"></i> </li>
+                        </ul>           
+                          </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <!-- nav mobile  -->
+          <div class="d-flex justify-content-between d-lg-none">
+            <i class="bi bi-justify-left ms-2 align-self-center" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"></i>
+            <div class="align-self-center"><img src="./assets/images/logo/logo.jpg" width="150px" class="img-fluid" alt="logo"></div>
+            <div class="align-self-center navbar-right">
+                <ul>
+                    <li><i class="fa-solid fa-bell"></i></li>
+                    <li> <img src="./assets/images/logo/avatar.jpeg" width="35px" class="avatar-pic" alt=""></li>
+                    <li> <i class="fa-solid fa-caret-down"></i> </li>
+                    </ul>   
+           </div>
+          </div>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+               <h5 class="offcanvas-title text-center" id="offcanvasExampleLabel">
+                <img src="./assets/images/logo/logo.jpg" width="150px" class="img-fluid" alt="logo">
+               </h5>
+               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                <a href="#">Financial Wisdom Demistified</a>
+                <a href="#">Sequential</a>
+                <a href="#">Self-Paced</a>
+                <a href="#">3 SimBytes</a>
+             </div>
+            </div>
+         </div>
+       </header>
+       <section class="need-help">
+        <div class="container-fluid">
+             <div class="row">
+                 <div class="col-md-4 d-xl-flex number-div justify-content-between align-items-center">
+                    <p class="mb-3 mb-lg-0 fg-primary fw-semibold">simBYTE 01 of 06</p>
+                     <span>1</span>
+                     <span>2</span>
+                     <span>3</span>
+                     <span>4</span>
+                     <span>5</span>
+                     <span>6</span>
+
+                 </div>
+                 <div class="col-md-5 d-flex justify-content-lg-end align-items-center my-3 my-lg-0 border--right">
+                    <p class="me-4 mb-0 fg-primary fw-semibold">Sim Tree</p>
+                    <i class="bi bi-arrow-left ms-1"></i>
+                    <i class="bi bi-phone-fill ms-2  clr-blue"></i>
+                    <i class="bi bi-laptop ms-2 me-2  clr-blue"></i>
+                    <p class="clr-blue mb-0">Preview</p>
+                 </div>
+                 <div class="col-md-3 d-flex align-items-center">
+                    <!-- <i class="bi bi-robot me-3"></i> -->
+                    <img src="./assets/images/Robot-Avatar.jpeg" width="30px" class="avatar-pic me-3" alt="">
+                    <p class="mb-0">Need help?</p>
+                 </div>
+             </div>
+        </div>
+     </section> 
+<section class="dashboard">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 border--right">
+                <div class="d-flex justify-content-between">
+                   <h6>Capability: <span class="fw-400">Financial Concepts</span></h6>
+                   <button class="btn-edit"><i class="bi bi-pencil-square"></i></button>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <span class="fw-700 me-3">Skills:</span> 
+                    </div>
+                    <div class="col-lg-9">
+                        <span class="badge">Definition of Finance</span>
+                        <span class="badge">Assets</span>
+                        <span class="badge">Liabilities</span>
+                    </div>
+                </div>
+               
+                <hr>
+                <h6>Compose</h6>
+                <hr>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                   <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                         Scenario      </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                         <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                      </div>
+                   </div>
+                   <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                         Skill Up      </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                         <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                      </div>
+                   </div>
+                   <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                         Simulate      </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                         <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                      </div>
+                   </div>
+                   <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingFour">
+                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                         Simulate      </button>
+                      </h2>
+                      <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                         <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                      </div>
+                   </div>
+                </div>
+                <button  type="button" class="btn btn-light w-100 mt-md-5">Story Data Manager<i class="bi bi-question-circle-fill ms-2"></i></button>
+                <button  type="button" class="btn btn-light w-100">Global Variables<i class="bi bi-question-circle-fill ms-2"></i></button>                  
+             </div>
+             <div class="col-md-6">
+                <div class="d-lg-flex  justify-content-between">
+                   <div class="my-4 my-lg-0">
+                      <span class="page-cls">Page 1</span>
+                      <button class="btn-edit"><span class="page-cls ms-3">+</span></button>
+                   </div>
+                   <div>
+                      <p class="bluetext">Financial Wisdom Demistified</p>
+                   </div>
+                </div>
+                <div class="d-flex justify-content-between  mt-md-5">
+                   <span class="bg-span">background</span>
+                  <button class="btn-edit"> <span class="bg-span"><i class="bi bi-credit-card-2-front-fill me-2"></i>Edit Templates</span></button>
+                </div>
+                <div class="center-card">
+                   <h5>Testing financial waters: Liquidity</h5>
+                   <p class="mt-3">Are you ready for Quarter 3 decisions? Review flight routes, assets and liabilities as you prepare to execute your next quarter in business.</p>
+                   <h6>Decisions to be taken</h6>
+                   <div class="row" >
+                      <div class="col-md-1">
+                         <div class="align-self-center">
+                            <i class="bi bi-check-circle-fill"></i>
+                         </div>
+                      </div>
+                      <div class="col-md-11">
+                         <div class="decision-row d-lg-flex justify-content-between">
+                            <div>
+                               <div class="d-flex">
+                                  <div class="box">
+                                  </div>
+                                  <div class="box ms-1">
+                                  </div>
+                               </div>
+                               <div class="d-flex">
+                                  <div class="box mt-1">
+                                  </div>
+                                  <div  class="box ms-1 mt-1">
+                                  </div>
+                               </div>
+                            </div>
+                            <div>
+                               <h6 class="title" contenteditable="true">Routes</h6>
+                               <p class="desc" contenteditable="true">Choose the routes you want to airlines to fly</p>
+                            </div>
+                            <div class="align-self-center">
+                               <button type="button" class="btn me-2 decision-button" id="my-button">Take Decision</button>
+                               <i class="bi bi-trash3-fill trash"></i>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="row decision-row-2 append-new-card" id="card-container">
+                    <div class="col-md-1">
+                        <div class="align-self-center">
+                           <i class="bi bi-check-circle-fill"></i>
+                        </div>
+                     </div>
+                    <div class="col-md-11">
+                        <div class="decision-row d-lg-flex bg-box-2">
+                            <div>
+                               <div class="d-flex">
+                                  <div class="box">
+                                  </div>
+                                  <div class="box ms-1">
+                                  </div>
+                               </div>
+                               <div class="d-flex">
+                                  <div class="box mt-1">
+                                  </div>
+                                  <div  class="box ms-1 mt-1">
+                                  </div>
+                               </div>
+                            </div>
+                            <div>
+                               <h6 class="title" contenteditable="true">Percentile Pay</h6>
+                               <p class="desc" contenteditable="true">Decide the Percentile pay for the airline staff</p>
+                            </div>
+                            <div class="align-self-center">
+                               <button type="button" class="btn me-2 decision-button" id="my-button1">Take Decision</button>
+                               <i class="bi bi-trash3-fill trash"></i>
+                            </div>
+                         </div>
+                    </div>
+                   </div>
+                   <div class="d-md-flex justify-content-between add-decision pt-md-4">
+                      <a href="javascript:void(0)" id="add-new-card-button"><i class="bi bi-plus-lg me-2"></i>Add New Decisions</a>
+                      <button type="button" class="btn btn-warning" id="next-button">Next</button>
+                   </div>
+                </div>
+                <div class="text-center mt-md-4 my-4">
+                   <button type="button" class="btn btn-warning scorecard">Move to Scorecard</button>
+                </div>
+             </div>
+             <div class="col-md-3 third-section">
+                <h6><i class="bi bi-plus-lg me-2"></i>Controls</h6>
+                <hr>
+                <nav>
+                   <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      <button class="nav-link active ps-0" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Design Properties</button>
+                      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Function Properties</button>
+                   </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                   <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                      <h6 class="mt-3">Page Name</h6>
+                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <h6  class="mt-3">Page Id</h6>
+                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <h6  class="mt-3">Button Design</h6>
+                      <div class="btn-styles">
+                         <button type="button" class="btn btn-warning btn-style" id="btn-style-1">Download</button>
+                         <button type="button" class="btn btn-outline btn-style" id="btn-style-2">Download</button><br>
+                         <button type="button" class="btn btn-warning btn-style" id="btn-style-3">Download</button>
+                         <button type="button" class="btn btn-outline btn-style" id="btn-style-4">Download</button><br>
+                         <button type="button" class="btn btn-warning btn-style" id="btn-style-5">Download</button>
+                         <button type="button" class="btn btn-outline btn-style" id="btn-style-6">Download<i class="bi bi-chevron-right ms-2"></i></button>
+                      </div>
+                      <hr>
+                      <h6>Text Change</h6>
+                      <select class="form-select" aria-label="Default select example">
+                         <option selected>Download</option>
+                         <option value="1">One</option>
+                         <option value="2">Two</option>
+                         <option value="3">Three</option>
+                      </select>
+                      <div class="row mt-3">
+                         <div class="col-lg-6">
+                            <h6>Fonts</h6>
+                            <select class="form-select" aria-label="Default select example">
+                               <option selected>Poppins Regular</option>
+                               <option value="1">Times New Roman</option>
+                               <option value="2">Sans-serif</option>
+                               <option value="3">Roboto-sans</option>
+                            </select>
+                         </div>
+                         <div class="col-lg-6">
+                            <h6 class="mt-3 mt-lg-0">Size</h6>
+                            <input type="number" class="form-control" id="exampleInputEmail1" placeholder="36" aria-describedby="emailHelp">
+                         </div>
+                      </div>
+                      <div class="row mt-3 choose-color-wrapper">
+                         <div class="col-lg-6">
+                            <h6>Button Colour</h6>
+                            <div class="inner-color">
+                                <input type="color" id="color-picker" name="color-picker">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                         </div>
+                         <div class="col-lg-6 ">
+                            <h6>Hover Colour</h6>
+                            <div class="inner-color">
+                                <input type="color" id="color-picker" name="color-picker"  value="#e2e2e2">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">...</div>
+                </div>
+             </div>
+        </div>
+    </div>
+</section>
+ <!-- jquery cdn -->
+ <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+ <script src="./assets/js/savaData.js"></script>   
+ <script src="./assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+      // Function to update button style
+      function updateButtonStyle(styleClass) {
+    // Remove classes related to button styles from "Take Decision" buttons
+    $('.decision-button').removeClass('first-btn second-btn third-btn fourth-btn fifth-btn sixth-btn');
+    
+    // Add the new button style class to all "Take Decision" buttons
+    $('.decision-button').addClass(styleClass);
+}
+
+
+// Attach click event listeners to the button style buttons
+$('#btn-style-1').click(function() {
+   console.log("button clicked")
+    updateButtonStyle('first-btn');
+    console.log(updateButtonStyle)
+});
+
+$('#btn-style-2').click(function() {
+    updateButtonStyle('second-btn');
+});
+
+$('#btn-style-3').click(function() {
+    updateButtonStyle('third-btn');
+});
+
+$('#btn-style-4').click(function() {
+    updateButtonStyle('fourth-btn');
+});
+
+$('#btn-style-5').click(function() {
+    updateButtonStyle('fifth-btn');
+});
+
+$('#btn-style-6').click(function() {
+    updateButtonStyle('sixth-btn');
+});
+
+    </script>
+   </body>
+</html>

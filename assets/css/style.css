@@ -1,0 +1,381 @@
+@import url('./typography.css');
+@import url('./header.css');
+@import url('utilities.css');
+@import url('./buttons.css');
+@import url('./accordion.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f5f5f5;
+}
+
+section.dashboard {
+    background: #f5f5f5;
+    padding:20px 0px;
+}
+section.dashboard .badge {
+    background: #e6eef5;
+    color: var(--fg-primary);
+    margin: 0px 7px 7px 0;
+    padding: 7px 10px;
+}
+div.border--right{
+    border-right:1px solid #3333;
+}
+.border--bottom{
+    border-bottom: 3px solid #3333;
+}
+
+section.dashboard .btn-light{
+    background: #d9d9d9;
+    border-radius: 0;
+    padding: 15px 0;
+    margin:7px 0px;
+    color: var(--fg-primary);
+    font-weight: 600;
+}
+section.dashboard .bi-plus-lg{
+    border-radius: 50%;
+    background: #c5d5e2;
+    padding: 7px 10px;
+}
+section.dashboard .nav-tabs .nav-link{
+    font-size: 13px;
+    border: none;
+    background: none;
+    color: #333;
+}
+section.dashboard .nav-tabs .nav-link.active{
+     font-weight:700;
+     border-bottom: 3px solid #3333;
+}
+section.dashboard .btn-warning{
+    background: #ea6312;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+section.dashboard .form-control{
+     background: none;
+}
+section.dashboard .form-select{
+    background: transparent;
+}
+div.btn-styles .btn:nth-child(5){
+    color: #eb732a;
+    border: 1px solid #eb732a;
+    border-radius: 20px;
+    margin:0 20px;
+}
+div.btn-styles .btn:nth-child(4){
+    border-radius: 20px;
+}
+div.btn-styles .btn:nth-child(2){
+    color: #eb732a;
+    border: 1px solid #eb732a;
+    margin:20px;
+}
+div.btn-styles .btn:nth-child(7){
+    color: #eb732a;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    margin:20px 0px;
+}
+div.btn-styles .btn:nth-child(8){
+    color: #eb732a;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    margin:0 20px;
+}
+div.btn-styles .btn:nth-child(8) .bi-chevron-right{
+    font-size: 10px;
+}
+@media(min-width:768px) and (max-width:973px){
+    div.btn-styles .btn:nth-child(2){
+        margin:10px 0px;
+  }
+  div.btn-styles .btn:nth-child(5) {
+    margin:10px 0px;
+  }
+  div.btn-styles .btn:nth-child(7) {
+    margin:0px 0px;
+  }
+  div.btn-styles .btn:nth-child(8) {
+    margin:10px 0px;
+  }
+}
+@media(min-width:975px) and (max-width:1300px){
+    div.btn-styles .btn:nth-child(2){
+          margin:10px;
+    }
+    div.btn-styles .btn:nth-child(5) {
+        margin: 0 10px;
+    }
+
+     div.btn-styles .btn:nth-child(7) {
+    margin: 10px 0px;
+   }
+   div.btn-styles .btn:nth-child(8)
+   {
+    margin:0px;
+   }
+}
+div.third-section h6{
+    font-size: 14px;
+    font-weight: 500;
+}
+div.third-section{
+    border-left:1px solid #3333;
+}
+div.center-card{
+    background: #fff;
+    padding: 30px 25px;
+    border:1px solid #9dd0fa;
+}
+div.add-decision a{
+    color: #095b9a;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}
+div.add-decision .btn{
+    border-radius: 20px;
+    padding: 6px 40px;
+}
+.page-cls{
+    background: #e2e2e2;
+    padding: 12px 20px;
+}
+.bluetext{
+    color: #255b97;
+    font-weight: 700;
+}
+span.bg-span{
+    background: #1996f8;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 10px;
+}
+button.scorecard{
+    padding: 5px 46px;
+    border-radius: 20px !important;
+}
+.decision-row{
+    background: #d2eafd !important;
+    padding: 15px 15px;
+    margin-bottom: 1em;
+}
+.decision-row > div:nth-child(1){
+    width: 15%;
+}
+.decision-row > div:nth-child(2){
+    width: 55%;
+}
+.decision-row > div:nth-child(3){
+    width: 35%;
+}
+.decision-row p{
+    font-size: 13px;
+}
+.decision-row-1 .box{
+    background: #1996f8;
+    padding:9px;
+}
+.decision-row button{
+    background: #1996f8;
+    border: 1px solid #1996f8;
+    color: #fff;
+    border-radius: 20px;
+    padding: 4px 27px;
+}
+.decision-row button:hover{
+    background:none !important;
+    border:1px solid #1996f8 !important;
+    color:#1996f8;
+}
+.decision-row .box{
+    background: #1996f8;
+    padding:9px;
+}
+.decision-row-2.decision-row-1 .decision-row button{
+    background: #1996f8;
+    color: #fff;
+    border-radius: 20px;
+    padding: 4px 27px;
+}
+.decision-row-1 .decision-row.bg-box-2{
+    background:#d2eafd !important
+}
+.decision-row-2.decision-row-1 button:hover{
+    background:none !important;
+    border:1px solid #1996f8 !important;
+    color:#1996f8;
+}
+.decision-row-2.decision-row-1 .bg-box-2 .box {
+    background: #1996f8 !important;
+    padding: 9px;
+}
+.decision-row-2.decision-row-1  .bi-check-circle-fill {
+    color:  #1996f8 !important;
+}
+
+.decision-row.bg-box-2 {
+    background: #dfdfdf !important;
+}
+.decision-row-2 .bg-box-2 .box {
+    background: #525659;
+    padding: 9px;
+}
+.decision-row-2 .bg-box-2 button {
+    background: #525659;
+    border: 1px solid #525659;
+}
+.decision-row-2 .bi-check-circle-fill {
+    color: #525659;
+}
+.decision-row-3 .bg-box-2  {
+   
+    background: rgb(224, 189, 125) !important;
+    padding: 9px;
+}
+.decision-row-3 .bg-box-2 .box {
+    background: rgb(224, 189, 125) !important;
+    padding: 9px;
+    background: orange !important;
+}
+.decision-row-3 .bg-box-2 button {
+    background: orange;
+    border: 1px solid orange;
+}
+.decision-row-3 .bi-check-circle-fill {
+    color: orange !important;
+}
+.decision-row-4 .bg-box-2  {
+   
+    background: rgb(184, 231, 113) !important;
+    padding: 9px;
+}
+.decision-row-4 .bg-box-2 .box {
+    background: rgb(96, 230, 76) !important;
+    padding: 9px;
+}
+.decision-row-4 .bg-box-2 button {
+    background: rgb(96, 230, 76);
+    border: 1px solid rgb(96, 230, 76);
+}
+.decision-row-4 .bi-check-circle-fill {
+    color:  rgb(96, 230, 76) !important;
+}
+
+.bi-trash3-fill{
+    cursor: pointer;
+}
+.bi-check-circle-fill{
+    font-size: 30px;
+    color: #48c264;
+}
+@media(min-width:769px) and (max-width:1300px){
+    .decision-row p {
+        font-size: 10px;
+    }
+    .decision-row button {
+        padding: 4px 9px;
+        font-size: 11px;
+    }
+    header a {
+        margin: 0 7px;
+        padding-right: 20px;
+        font-size: 13px;
+    }
+}
+/* need help starts */
+.need-help {
+    background: #e2e2e2;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.clr-blue{
+    color:#0081eb;
+    cursor: pointer;
+}
+div.number-div span{
+    background: #0d2771;
+    border-radius: 50%;
+    padding: 6px 14px;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 0;
+    position: relative;
+}
+div.number-div span::after {
+    position: absolute;
+    content: '';
+    width: 38px;
+    height: 24px;
+    border-bottom: 1.6px dotted #0d2771;
+    margin-top: -10px;
+    margin-left: 14px;
+}
+div.number-div span:nth-child(7)::after{
+     border-bottom:none !important;
+}
+div.number-div span:nth-child(3), div.number-div span:nth-child(4), div.number-div span:nth-child(5), div.number-div span:nth-child(6), div.number-div span:nth-child(7) {
+    background: #cdddea;
+    border-radius: 50%;
+    padding: 6px 14px;
+    color: #333;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.choose-color-wrapper img{
+    display: none;
+}
+.choose-color-wrapper .inner-color {
+    position: relative;
+    border: 1px solid gray;
+    width: 22%;
+    display: flex;
+    padding: 3px;
+}
+.choose-color-wrapper .inner-color i {
+    position: absolute;
+    margin-left: 9px;
+    top: 28%;
+    color: gray;
+    font-size: 13px;
+    right: 15%;
+}
+@media (min-width:992px)  and (max-width:1200px){
+    .choose-color-wrapper .inner-color {
+        position: relative;
+        border: 1px solid gray;
+        width: 75%;
+        display: flex;
+        padding: 3px;
+    }
+}
+@media (min-width:1300px){
+    .choose-color-wrapper .inner-color {
+        position: relative;
+        border: 1px solid gray;
+        width: 55%;
+        display: flex;
+        padding: 3px;
+    }
+}
+@media (max-width:992px) {
+    .decision-row > div:nth-child(1){
+        width: 100%;
+    }
+    .decision-row > div:nth-child(2){
+        width: 100%;
+    }
+    .decision-row > div:nth-child(3){
+        width: 100%;
+    }
+}

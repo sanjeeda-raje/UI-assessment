@@ -1,0 +1,19 @@
+section.dashboard .accordion-flush{
+    border:1px solid #3333;
+}
+section.dashboard .accordion-item .accordion-button.collapsed{
+    padding:14px;
+}
+section.dashboard .accordion-item .accordion-button{
+    color: var(--fg-primary);
+    font-weight: 600;
+}
+section.dashboard .bi-question-circle-fill{
+    color: #ea6515;
+}
+
+section.dashboard .accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: inherit;
+    box-shadow: none;
+}
