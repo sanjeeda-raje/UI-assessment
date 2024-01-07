@@ -10,14 +10,16 @@ $(document).ready(function(){
 $(document).on('click', '#next-button', function () {
     var dataArr = [];
 
-    $('.decision-row').each(function () {
+    $('.decision-row').each(function (index) {
         var title = $(this).find('.title').text();
         var description = $(this).find('.desc').text();
+        var uniqueId = generateUniqueId(); // Call a function to generate a unique ID
         dataArr.push({
+            id: uniqueId,
             title: title,
             description: description
         });
-        console.log(dataArr,"dataArr")
+        console.log(dataArr, "dataArr");
     });
 
     fetch(url, {
@@ -26,14 +28,21 @@ $(document).on('click', '#next-button', function () {
             'Content-Type': 'application/json',
         },
         body: JSON.stringify(dataArr)
-        })
-    .then(response => response.json())
-    .then(data => {
-        console.log('Data sent successfully:', data);
-        alert('data saved successfully')
     })
-    .catch(error => {
-        console.error('Request failed:', error);
-    });
+        .then(response => response.json())
+        .then(data => {
+            console.log('Data sent successfully:', data);
+            alert('data saved successfully');
+        })
+        .catch(error => {
+            console.error('Request failed:', error);
+        });
 });
+
+// Function to generate a unique ID
+function generateUniqueId() {
+    // Implement your logic to generate a unique ID
+    // This example uses a simple timestamp-based approach
+    return Date.now() + Math.floor(Math.random() * 1000);
+}
 
